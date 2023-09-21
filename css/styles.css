@@ -539,14 +539,19 @@ input {
   fill: var(--light);
 }
 
-.footer-label {
+.footer-form-title {
   color: var(--white-background);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-  display: block;
+}
+
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .footer-input {
@@ -556,8 +561,7 @@ input {
   background-color: var(--dark);
   border-radius: 4px;
   border: 1px solid var(--white-background);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-right: 22px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-input::placeholder {
@@ -569,6 +573,7 @@ input {
 }
 
 .footer-button {
+  min-width: 165px;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
