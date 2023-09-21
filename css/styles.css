@@ -609,7 +609,6 @@ input {
   flex-shrink: 0;
   border-radius: 4px;
   padding: 24px;
-  display: block;
 }
 
 .modal-close-button {
