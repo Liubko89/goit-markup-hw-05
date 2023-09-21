@@ -556,9 +556,13 @@ input {
 
 .footer-input {
   width: 264px;
+  height: 40px;
   padding: 8px 16px;
   color: var(--white-background);
-  background-color: var(--dark);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  background-color: transparent;
   border-radius: 4px;
   border: 1px solid var(--white-background);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -578,11 +582,11 @@ input {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 }
 
 .footer-button-icon {
   fill: var(--white-background);
+  margin-left: 16px;
 }
 
 /* Modal */
