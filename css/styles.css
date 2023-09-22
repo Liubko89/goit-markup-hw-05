@@ -756,11 +756,8 @@ input {
   letter-spacing: 0.04em;
 }
 
-span {
-  display: inline-flex;
-}
-
 .checkbox-icon-wrapper {
+  display: inline-flex;
   fill: transparent;
   width: 16px;
   height: 16px;
