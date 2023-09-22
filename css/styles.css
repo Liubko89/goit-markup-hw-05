@@ -618,7 +618,7 @@ input {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
-  overflow-y: scroll;
+  overflow-y: auto;
   flex-shrink: 0;
   border-radius: 4px;
   padding: 72px 24px 24px;
