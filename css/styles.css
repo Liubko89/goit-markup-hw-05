@@ -675,6 +675,7 @@ input {
 .container-input {
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -687,7 +688,6 @@ input {
 
 .modal-container-inner {
   position: relative;
-  margin-bottom: 8px;
 }
 
 .modal-input {
@@ -696,7 +696,8 @@ input {
   border-radius: 4px;
   border: 1px solid var(--modal-overlay);
   padding-left: 38px;
-  background-color: var(--modal-background);
+  background-color: transparent;
+  outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -731,6 +732,12 @@ input {
   height: 120px;
   padding: 8px 16px;
   margin-bottom: 16px;
+  color: var(--modal-overlay);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  outline: transparent;
 }
 
 .modal-checkbox-wrap {
@@ -774,7 +781,7 @@ input {
 }
 
 .modal-send-button {
-  width: 169px;
+  min-width: 169px;
   display: block;
   padding: 16px 32px;
   margin: 0 auto;
