@@ -771,26 +771,16 @@ input {
   transform: translateY(-50%);
 }
 
+.modal-checkbox-input:checked + .modal-checkbox-label .checkbox-icon-wrapper {
+  background-color: var(--primary-brand);
+  fill: var(--primary-brand);
+  border: none;
+}
+
 .modal-checkbox-link {
   color: var(--primary-brand);
   text-decoration: underline;
 }
-
-.modal-checkbox-icon {
-}
-
-/* .modal-checkbox-input:checked + .modal-checkbox-icon {
-  opacity: 1;
-}
-
-.modal-checkbox-default-icon {
-  stroke: var(--modal-overlay);
-  fill: var(--white-background);
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-} */
 
 .modal-send-button {
   min-width: 169px;
