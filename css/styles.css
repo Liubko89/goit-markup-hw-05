@@ -743,6 +743,13 @@ input {
   outline: transparent;
 }
 
+.checkbox-icon-wrap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid darkblue;
+}
+
 .modal-send-button {
   min-width: 169px;
   display: block;
