@@ -760,6 +760,9 @@ input {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+
+.checkbox-icon-wrapper {
   fill: transparent;
   width: 16px;
   height: 16px;
