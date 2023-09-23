@@ -756,7 +756,7 @@ input {
   letter-spacing: 0.04em;
 }
 
-.checkbox-icon-wrapper {
+.modal-checkbox-label > span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
