@@ -757,7 +757,7 @@ input {
 }
 
 .checkbox-icon-wrapper {
-  display: inline-flex;
+  display: flex;
   fill: transparent;
   width: 16px;
   height: 16px;
