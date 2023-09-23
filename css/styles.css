@@ -743,11 +743,52 @@ input {
   outline: transparent;
 }
 
+.container-checkbox {
+  margin-bottom: 24px;
+}
+
 .checkbox-icon-wrap {
+  width: 16px;
+  height: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid darkblue;
+  border: 1px solid var(--modal-overlay);
+  border-radius: 2px;
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked + .checkbox-label .checkbox-icon-wrap {
+  fill: var(--pressed-state);
+  background-color: var(--pressed-state);
+  border: none;
+}
+
+.checkbox-icon {
+  fill: transparent;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked + .checkbox-label .checkbox-icon-wrap .checkbox-icon {
+  fill: var(--modal-background);
+}
+
+.checkbox-label {
+  color: var(--subtle-text);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.checkbox-link {
+  color: var(--primary-brand);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04;
+  text-decoration: underline;
 }
 
 .modal-send-button {
