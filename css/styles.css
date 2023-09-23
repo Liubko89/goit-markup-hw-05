@@ -762,7 +762,7 @@ input {
 }
 
 .checkbox:checked + .checkbox-label .checkbox-icon-wrap {
-  fill: var(--pressed-state);
+  fill: var(--light);
   background-color: var(--pressed-state);
   border: none;
 }
