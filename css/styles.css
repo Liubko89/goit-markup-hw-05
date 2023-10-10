@@ -639,7 +639,6 @@ input {
   background-color: var(--accent);
   color: var(--dark);
   border: 1px solid var(--modal-button-border);
-  margin-left: auto;
   position: absolute;
   top: 24px;
   right: 24px;
